@@ -28,6 +28,8 @@ jobs:
           php-version: '8.2'
 
       - name: Build static site
+        env:
+          BASE_PATH: /corporate-site
         run: php scripts/build.php
 
       - name: Upload build artifact (all branches)

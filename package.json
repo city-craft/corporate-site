@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "build": "php scripts/build.php"
+    "build": "php scripts/build.php",
+    "build:projectpages": "set BASE_PATH=/corporate-site && php scripts/build.php"
   }
 }
