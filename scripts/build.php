@@ -284,11 +284,18 @@ function rewriteRootLinks(string $html, string $basePath): string
         static function (array $matches) use ($basePath): string {
             $attr = $matches[1];
             $quote = $matches[2];
-            $path = $matches[3];
+            $path = normalizeRootRelativePath($matches[3]);
             return sprintf('%s=%s%s/%s%s', $attr, $quote, $basePath, $path, $quote);
         },
         $html
     ) ?? $html;
+}
+
+function normalizeRootRelativePath(string $path): string
+{
+    // Prevent "/../foo" style paths from escaping BASE_PATH on project pages.
+    $path = preg_replace('#^(?:\./|\.\./)+#', '', $path) ?? $path;
+    return ltrim($path, '/');
 }
 
 function rewriteCssRootUrls(string $dist, string $basePath): void
