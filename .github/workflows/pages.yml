@@ -29,7 +29,7 @@ jobs:
 
       - name: Build static site
         env:
-          BASE_PATH: /corporate-site
+          BASE_PATH: /
         run: php scripts/build.php
 
       - name: Upload build artifact (all branches)
