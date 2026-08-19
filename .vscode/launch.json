@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "プレビュー (Edge)",
+      "type": "msedge",
+      "request": "launch",
+      "url": "http://localhost:8000/corporate-site/",
+      "webRoot": "${workspaceFolder}/dist",
+      "preLaunchTask": "serve",
+      "presentation": { "group": "1_preview", "order": 1 }
+    },
+    {
+      "name": "プレビュー (Chrome)",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:8000/corporate-site/",
+      "webRoot": "${workspaceFolder}/dist",
+      "preLaunchTask": "serve",
+      "presentation": { "group": "1_preview", "order": 2 }
+    }
+  ]
+}

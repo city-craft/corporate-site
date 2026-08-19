@@ -279,7 +279,7 @@ function normalizeBasePath(string $basePath): string
 
 function rewriteRootLinks(string $html, string $basePath): string
 {
-    return preg_replace_callback(
+    $rewritten = preg_replace_callback(
         '/\b(href|src|action)=(["\'])\/(?!\/)([^"\']*)\2/',
         static function (array $matches) use ($basePath): string {
             $attr = $matches[1];
@@ -289,6 +289,44 @@ function rewriteRootLinks(string $html, string $basePath): string
         },
         $html
     ) ?? $html;
+
+    return rewriteRootSrcsets($rewritten, $basePath);
+}
+
+function rewriteRootSrcsets(string $html, string $basePath): string
+{
+    return preg_replace_callback(
+        '/\b(srcset|imagesrcset)=(["\'])([^"\']*)\2/',
+        static function (array $matches) use ($basePath): string {
+            $attr = $matches[1];
+            $quote = $matches[2];
+            $candidates = array_map(
+                static fn (string $candidate): string => rewriteSrcsetCandidate($candidate, $basePath),
+                explode(',', $matches[3])
+            );
+
+            return sprintf('%s=%s%s%s', $attr, $quote, implode(',', $candidates), $quote);
+        },
+        $html
+    ) ?? $html;
+}
+
+/**
+ * A srcset candidate is a URL optionally followed by a width or pixel density
+ * descriptor ("image.png 2x"). Only the URL part is rewritten.
+ */
+function rewriteSrcsetCandidate(string $candidate, string $basePath): string
+{
+    if (preg_match('/^(\s*)(\S+)(.*)$/s', $candidate, $parts) !== 1) {
+        return $candidate;
+    }
+
+    $url = $parts[2];
+    if (strpos($url, '/') !== 0 || strpos($url, '//') === 0) {
+        return $candidate;
+    }
+
+    return $parts[1] . $basePath . $url . $parts[3];
 }
 
 function rewriteCssRootUrls(string $dist, string $basePath): void
