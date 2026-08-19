@@ -8,7 +8,7 @@ include(__DIR__ . "/../../header-recruit.php");
     <div class="container">
       <div class="area">
         <h1 class="js-clip"><span class="fontEn">Job Posting</span>募集要項</h1>
-        <figure class="bgImg"><img src="/../common/img/recruit/jobposting/lower_mv_bg.jpg" alt="エンジニアの写真"></figure>
+        <figure class="bgImg"><img src="/common/img/recruit/jobposting/lower_mv_bg.jpg" alt="エンジニアの写真"></figure>
       </div>
       <nav class="pankz" aria-label="パンくずリスト">
         <ol>
@@ -90,8 +90,8 @@ include(__DIR__ . "/../../header-recruit.php");
                 名古屋市中区栄四丁目1番1号 <br class="onlysp">中日ビル13階<br>
                 <a href="tel:052-228-9737">TEL：052-228-9737</a>　<br class="onlysp">FAX：052-228-9738</dd>
           </dl>
-        </div>
-      </div> -->
+        </div> -->
+      </div>
     </section>
 
     <section id="jobFlow" class="jobFlow">
@@ -107,7 +107,7 @@ include(__DIR__ . "/../../header-recruit.php");
                   記載いただいた内容により、追加の書類送付を依頼する場合がございます。</p>
               </div>
             </div>
-            <figure class="img"><img src="/../common/img/recruit/jobposting/flow01.png" alt="スタッフのイラスト"></figure>
+            <figure class="img"><img src="/common/img/recruit/jobposting/flow01.png" alt="スタッフのイラスト"></figure>
           </div>
           <div class="row d-flex js-scroll fadeInUp">
             <div class="box d-flex">
@@ -118,7 +118,7 @@ include(__DIR__ . "/../../header-recruit.php");
                 <p class="note">※初回はZoomでのWeb面談です</p>
               </div>
             </div>
-            <figure class="img"><img src="/../common/img/recruit/jobposting/flow02.png" alt="スタッフのイラスト"></figure>
+            <figure class="img"><img src="/common/img/recruit/jobposting/flow02.png" alt="スタッフのイラスト"></figure>
           </div>
           <div class="row d-flex js-scroll fadeInUp">
             <div class="box d-flex">
@@ -130,7 +130,7 @@ include(__DIR__ . "/../../header-recruit.php");
                 <p class="note">※実際にお会いして、お互いWeb面談での印象の答え合わせをしましょう</p>
               </div>
             </div>
-            <figure class="img"><img src="/../common/img/recruit/jobposting/flow03.png" alt="スタッフのイラスト"></figure>
+            <figure class="img"><img src="/common/img/recruit/jobposting/flow03.png" alt="スタッフのイラスト"></figure>
           </div>
           <div class="row d-flex js-scroll fadeInUp">
             <div class="box d-flex">
@@ -141,7 +141,7 @@ include(__DIR__ . "/../../header-recruit.php");
                   その後は、入社に向けて具体的な相談をしていきましょう。</p>
               </div>
             </div>
-            <figure class="img"><img src="/../common/img/recruit/jobposting/flow04.png" alt="スタッフのイラスト"></figure>
+            <figure class="img"><img src="/common/img/recruit/jobposting/flow04.png" alt="スタッフのイラスト"></figure>
           </div>
         </div>
       </div>
@@ -154,28 +154,28 @@ include(__DIR__ . "/../../header-recruit.php");
           <a href="/recruit/about" class="link _01">
             <div class="back"></div>
             <div class="front">
-              <figure class="img"><img src="/../common/img/recruit/other_about.svg" alt="エンジニアのイラスト"></figure>
+              <figure class="img"><img src="/common/img/recruit/other_about.svg" alt="エンジニアのイラスト"></figure>
               <p class="txt"><span class="fontEn">About Us</span>「シティクラフト」に<br class="onlysp">ついて</p>
             </div>
           </a>
           <a href="/recruit/workstyle" class="link _02">
             <div class="back"></div>
             <div class="front">
-              <figure class="img"><img src="/../common/img/recruit/other_workstyle.svg" alt="ビルのイラスト"></figure>
+              <figure class="img"><img src="/common/img/recruit/other_workstyle.svg" alt="ビルのイラスト"></figure>
               <p class="txt"><span class="fontEn">Work Style</span>働き方・福利厚生</p>
             </div>
           </a>
           <a href="/recruit/careerplan" class="link _03">
             <div class="back"></div>
             <div class="front">
-              <figure class="img"><img src="/../common/img/recruit/other_careerplan.svg" alt="階段を上る人のイラスト"></figure>
+              <figure class="img"><img src="/common/img/recruit/other_careerplan.svg" alt="階段を上る人のイラスト"></figure>
               <p class="txt"><span class="fontEn">Career Plan</span>キャリアプラン・制度</p>
             </div>
           </a>
           <a href="/recruit/people" class="link _04">
             <div class="back"></div>
             <div class="front">
-              <figure class="img"><img src="/../common/img/recruit/other_people.svg" alt="人のイラスト"></figure>
+              <figure class="img"><img src="/common/img/recruit/other_people.svg" alt="人のイラスト"></figure>
               <p class="txt"><span class="fontEn">People</span>人を知る</p>
             </div>
           </a>

@@ -8,7 +8,7 @@ include(__DIR__ . "/../../header-recruit.php");
     <div class="container">
       <div class="area">
         <h1 class="js-clip"><span class="fontEn">ENTRY</span>エントリー</h1>
-        <figure class="bgImg"><img src="/../common/img/recruit/entry/lower_mv_bg.jpg" alt="パソコンを操作している人の写真"></figure>
+        <figure class="bgImg"><img src="/common/img/recruit/entry/lower_mv_bg.jpg" alt="パソコンを操作している人の写真"></figure>
       </div>
       <nav class="pankz" aria-label="パンくずリスト">
         <ol>

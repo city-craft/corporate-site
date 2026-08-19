@@ -8,7 +8,7 @@ include(__DIR__ . "/../../header-recruit.php");
     <div class="container">
       <div class="area">
         <h1 class="js-clip"><span class="fontEn">Work Style</span>働き方・福利厚生</h1>
-        <figure class="bgImg"><img src="/../common/img/recruit/workstyle/lower_mv_bg.jpg" alt="スタッフの写真"></figure>
+        <figure class="bgImg"><img src="/common/img/recruit/workstyle/lower_mv_bg.jpg" alt="スタッフの写真"></figure>
       </div>
       <nav class="pankz" aria-label="パンくずリスト">
         <ol>
@@ -34,15 +34,15 @@ include(__DIR__ . "/../../header-recruit.php");
           <p class="txt txtSet">広い作業スペースにモニターを配置した、エンジニアのための快適な環境を整備しています。</p>
         </section>
         <div class="imgRow d-flex">
-          <figure class="imgLft"><img src="/../common/img/recruit/workstyle/office01.jpg" alt="会社の内観写真"></figure>
+          <figure class="imgLft"><img src="/common/img/recruit/workstyle/office01.jpg" alt="会社の内観写真"></figure>
           <div class="imgRgt">
-            <figure><img src="/../common/img/recruit/workstyle/office02.jpg" alt="会社の内観写真"></figure>
-            <figure><img src="/../common/img/recruit/workstyle/office03.jpg" alt="会社の内観写真"></figure>
+            <figure><img src="/common/img/recruit/workstyle/office02.jpg" alt="会社の内観写真"></figure>
+            <figure><img src="/common/img/recruit/workstyle/office03.jpg" alt="会社の内観写真"></figure>
           </div>
         </div>
         <div class="c_workRow d-flex">
           <div class="item _01">
-            <figure class="img"><img src="/../common/img/recruit/workstyle/office04.jpg" alt="会社の内観写真"></figure>
+            <figure class="img"><img src="/common/img/recruit/workstyle/office04.jpg" alt="会社の内観写真"></figure>
             <section class="c_txtBox">
               <h3 class="ttl">休憩スペース</h3>
               <p class="txt txtSet">ビル内のオフィスラウンジに設置されている、仮眠スペースやシャワー室はいつでも利用可能です。</p>
@@ -130,28 +130,28 @@ include(__DIR__ . "/../../header-recruit.php");
           <a href="/recruit/about" class="link _01">
             <div class="back"></div>
             <div class="front">
-              <figure class="img"><img src="/../common/img/recruit/other_about.svg" alt="エンジニアのイラスト"></figure>
+              <figure class="img"><img src="/common/img/recruit/other_about.svg" alt="エンジニアのイラスト"></figure>
               <p class="txt"><span class="fontEn">About Us</span>「シティクラフト」に<br class="onlysp">ついて</p>
             </div>
           </a>
           <a href="/recruit/careerplan" class="link _02">
             <div class="back"></div>
             <div class="front">
-              <figure class="img"><img src="/../common/img/recruit/other_careerplan.svg" alt="階段を上る人のイラスト"></figure>
+              <figure class="img"><img src="/common/img/recruit/other_careerplan.svg" alt="階段を上る人のイラスト"></figure>
               <p class="txt"><span class="fontEn">Career Plan</span>キャリアプラン・制度</p>
             </div>
           </a>
           <a href="/recruit/people" class="link _03">
             <div class="back"></div>
             <div class="front">
-              <figure class="img"><img src="/../common/img/recruit/other_people.svg" alt="人のイラスト"></figure>
+              <figure class="img"><img src="/common/img/recruit/other_people.svg" alt="人のイラスト"></figure>
               <p class="txt"><span class="fontEn">People</span>人を知る</p>
             </div>
           </a>
           <a href="/recruit/jobposting" class="link _04">
             <div class="back"></div>
             <div class="front">
-              <figure class="img"><img src="/../common/img/recruit/other_jobposting.svg" alt="書類のイラスト"></figure>
+              <figure class="img"><img src="/common/img/recruit/other_jobposting.svg" alt="書類のイラスト"></figure>
               <p class="txt"><span class="fontEn">Job Posting</span>募集要項</p>
             </div>
           </a>

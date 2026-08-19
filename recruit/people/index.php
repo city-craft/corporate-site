@@ -8,7 +8,7 @@ include(__DIR__ . "/../../header-recruit.php");
     <div class="container">
       <div class="area">
         <h1 class="js-clip"><span class="fontEn">People</span>人を知る</h1>
-        <figure class="bgImg"><img src="/../common/img/recruit/people/lower_mv_bg.jpg" alt="エンジニアの写真"></figure>
+        <figure class="bgImg"><img src="/common/img/recruit/people/lower_mv_bg.jpg" alt="エンジニアの写真"></figure>
       </div>
       <nav class="pankz" aria-label="パンくずリスト">
         <ol>
@@ -32,7 +32,7 @@ include(__DIR__ . "/../../header-recruit.php");
         <div class="peopleContWrap">
           <a href="/recruit/people/kohama" class="c_peopleCont">
             <figure class="img">
-              <img src="/../common/img/recruit/people/kohama/mv.jpg" alt="小浜雄喜の写真">
+              <img src="/common/img/recruit/people/kohama/mv.jpg" alt="小浜雄喜の写真">
             </figure>
             <div class="box">
               <h3 class="ttl fontEn"><span class="num">01</span>Yuki<br>Kohama</h3>
@@ -46,7 +46,7 @@ include(__DIR__ . "/../../header-recruit.php");
           </a>
           <a href="/recruit/people/sugao" class="c_peopleCont">
             <figure class="img">
-              <img src="/../common/img/recruit/people/sugao/mv.jpg" alt="菅尾征司の写真">
+              <img src="/common/img/recruit/people/sugao/mv.jpg" alt="菅尾征司の写真">
             </figure>
             <div class="box">
               <h3 class="ttl fontEn"><span class="num">02</span>Masashi<br>Sugao</h3>
@@ -60,7 +60,7 @@ include(__DIR__ . "/../../header-recruit.php");
           </a>
           <a href="/recruit/people/hirose" class="c_peopleCont">
             <figure class="img">
-              <img src="/../common/img/recruit/people/hirose/mv.jpg" alt="廣瀬暁彦の写真">
+              <img src="/common/img/recruit/people/hirose/mv.jpg" alt="廣瀬暁彦の写真">
             </figure>
             <div class="box">
               <h3 class="ttl fontEn"><span class="num">03</span>Akihiko<br>Hirose</h3>
@@ -74,7 +74,7 @@ include(__DIR__ . "/../../header-recruit.php");
           </a>
           <a href="/recruit/people/matsuno" class="c_peopleCont">
             <figure class="img">
-              <img src="/../common/img/recruit/people/matsuno/mv.jpg" alt="松野弘幸の写真">
+              <img src="/common/img/recruit/people/matsuno/mv.jpg" alt="松野弘幸の写真">
             </figure>
             <div class="box">
               <h3 class="ttl fontEn"><span class="num">04</span>Hiroyuki<br>Matsuno</h3>
@@ -97,28 +97,28 @@ include(__DIR__ . "/../../header-recruit.php");
           <a href="/recruit/about" class="link _01">
             <div class="back"></div>
             <div class="front">
-              <figure class="img"><img src="/../common/img/recruit/other_about.svg" alt="エンジニアのイラスト"></figure>
+              <figure class="img"><img src="/common/img/recruit/other_about.svg" alt="エンジニアのイラスト"></figure>
               <p class="txt"><span class="fontEn">About Us</span>「シティクラフト」に<br class="onlysp">ついて</p>
             </div>
           </a>
           <a href="/recruit/careerplan" class="link _02">
             <div class="back"></div>
             <div class="front">
-              <figure class="img"><img src="/../common/img/recruit/other_careerplan.svg" alt="階段を上る人のイラスト"></figure>
+              <figure class="img"><img src="/common/img/recruit/other_careerplan.svg" alt="階段を上る人のイラスト"></figure>
               <p class="txt"><span class="fontEn">Career Plan</span>キャリアプラン・制度</p>
             </div>
           </a>
           <a href="/recruit/workstyle" class="link _03">
             <div class="back"></div>
             <div class="front">
-              <figure class="img"><img src="/../common/img/recruit/other_workstyle.svg" alt="ビルのイラスト"></figure>
+              <figure class="img"><img src="/common/img/recruit/other_workstyle.svg" alt="ビルのイラスト"></figure>
               <p class="txt"><span class="fontEn">Work Style</span>働き方・福利厚生</p>
             </div>
           </a>
           <a href="/recruit/jobposting" class="link _04">
             <div class="back"></div>
             <div class="front">
-              <figure class="img"><img src="/../common/img/recruit/other_jobposting.svg" alt="書類のイラスト"></figure>
+              <figure class="img"><img src="/common/img/recruit/other_jobposting.svg" alt="書類のイラスト"></figure>
               <p class="txt"><span class="fontEn">Job Posting</span>募集要項</p>
             </div>
           </a>

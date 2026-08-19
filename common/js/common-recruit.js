@@ -7,11 +7,22 @@ setTimeout(function () {
 
 //smooth
 jQuery(function () {
-  jQuery('a[href^="#"]').click(function () {
+  jQuery('a[href^="#"]:not(.story01-about__topic-content)').click(function () {
     let speed = 500;
     let href = $(this).attr("href");
     let target = jQuery(href == "#" || href == "" ? 'html' : href);
     let position = target.offset().top;
+    jQuery("html, body").animate({ scrollTop: position }, speed, "swing");
+    return false;
+  });
+
+  // Topic 01/02/03カードのリンクは、ジャンプ先を少し上にずらして表示する
+  jQuery('.story01-about__topic-content').click(function () {
+    let speed = 500;
+    let href = $(this).attr("href");
+    let target = jQuery(href);
+    let offset = 120;
+    let position = target.offset().top - offset;
     jQuery("html, body").animate({ scrollTop: position }, speed, "swing");
     return false;
   });
@@ -106,8 +117,22 @@ if (navigator.userAgent.match(/MSIE 10/i) || navigator.userAgent.match(/Trident\
 }
 
 
+// 手描き風アンダーライン(story01-about__topic-text.--strong svg)は
+// テキスト幅に合わせて幅が伸縮するため、見た目の線の太さが揃うよう
+// stroke-widthをレンダリング幅に応じて都度補正する
+const setUnderlineStrokeWidth = function () {
+  document.querySelectorAll('.story01-about__topic-text.--strong svg').forEach(function (svg) {
+    const viewBox = svg.viewBox && svg.viewBox.baseVal;
+    const path = svg.querySelector('path');
+    const renderedWidth = svg.getBoundingClientRect().width;
+    if (!viewBox || !viewBox.width || !renderedWidth || !path) return;
+    path.style.strokeWidth = (3 * viewBox.width / renderedWidth).toFixed(3);
+  });
+}
+
 // ページの読み込み時とスクロール時に表示領域に入ったらclass付与
 const myFunc = function () {
+  setUnderlineStrokeWidth();
   const target = document.querySelectorAll('.js-scroll');
   const position = Math.floor(window.innerHeight);
 
@@ -119,11 +144,18 @@ const myFunc = function () {
   }
 }
 
-// ページ読み込み時にクラスを付与
-window.addEventListener('load', myFunc, false);
+// ページ読み込み時にクラスを付与(Webフォント読み込み完了後に実行し、フォント切り替えによる文字幅変化後に描画されるようにする)
+window.addEventListener('load', function () {
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(myFunc);
+  } else {
+    myFunc();
+  }
+}, false);
 
-// スクロール時にクラスを付与
+// スクロール時・画面幅変更時にクラス付与/太さを再計算
 window.addEventListener('scroll', myFunc, false);
+window.addEventListener('resize', setUnderlineStrokeWidth, false);
 
 
 

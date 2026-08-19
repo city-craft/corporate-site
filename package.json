@@ -4,6 +4,8 @@
   "version": "1.0.0",
   "scripts": {
     "build": "php scripts/build.php",
-    "build:projectpages": "set BASE_PATH=/corporate-site && php scripts/build.php"
+    "build:projectpages": "set BASE_PATH=/corporate-site && php scripts/build.php",
+    "serve": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/serve.ps1",
+    "dev": "php -S localhost:8000"
   }
 }
