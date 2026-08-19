@@ -15,7 +15,7 @@ include(__DIR__ . "/../../../header-recruit.php");
       </nav>
       <div class="area">
         <h1 class="js-clip"><span class="fontEn">Hiroyuki <br class="onlysp">Matsuno</span>松野 弘幸</h1>
-        <figure class="bgImg"><img src="/../../common/img/recruit/people/matsuno/mv.jpg" alt="松野弘幸の写真"></figure>
+        <figure class="bgImg"><img src="/common/img/recruit/people/matsuno/mv.jpg" alt="松野弘幸の写真"></figure>
       </div>
     </div>
   </section>
@@ -56,7 +56,7 @@ include(__DIR__ . "/../../../header-recruit.php");
                 </p>
               </div>
             </div>
-            <figure class="img js-clip"><img src="/../../common/img/recruit/people/matsuno/interview01.jpg" alt="仕事風景の写真"></figure>
+            <figure class="img js-clip"><img src="/common/img/recruit/people/matsuno/interview01.jpg" alt="仕事風景の写真"></figure>
           </div>
           <div class="row d-flex _02 js-scroll">
             <div class="box">
@@ -84,7 +84,7 @@ include(__DIR__ . "/../../../header-recruit.php");
                 </p>
               </div>
             </div>
-            <figure class="img js-clip"><img src="/../../common/img/recruit/people/matsuno/interview02.jpg" alt="仕事風景の写真"></figure>
+            <figure class="img js-clip"><img src="/common/img/recruit/people/matsuno/interview02.jpg" alt="仕事風景の写真"></figure>
           </div>
           <div class="row d-flex _03 js-scroll">
             <div class="box">
@@ -109,7 +109,7 @@ include(__DIR__ . "/../../../header-recruit.php");
                 </p>
               </div>
             </div>
-            <figure class="img js-clip"><img src="/../../common/img/recruit/people/matsuno/interview03.jpg" alt="仕事風景の写真"></figure>
+            <figure class="img js-clip"><img src="/common/img/recruit/people/matsuno/interview03.jpg" alt="仕事風景の写真"></figure>
           </div>
         </div>
       </div>
@@ -120,17 +120,17 @@ include(__DIR__ . "/../../../header-recruit.php");
         <h2 class="enJaTtl"><span class="fontEn">Other Interview</span>その他のインタビュー</h2>
         <div class="row d-grid">
           <a href="/recruit/people/kohama" class="link js-scroll js-clip">
-            <figure class="img"><img src="/../../common/img/recruit/people/kohama/other.jpg" alt="小浜雄喜の写真"></figure>
+            <figure class="img"><img src="/common/img/recruit/people/kohama/other.jpg" alt="小浜雄喜の写真"></figure>
             <p class="txt">人を大切にする環境で<br>エンジニアとしての本質を追求</p>
             <p class="name fontEn">Yuki Kohama</p>
           </a>
           <a href="/recruit/people/sugao" class="link js-scroll js-clip">
-            <figure class="img"><img src="/../../common/img/recruit/people/sugao/other.jpg" alt="菅尾征司の写真"></figure>
+            <figure class="img"><img src="/common/img/recruit/people/sugao/other.jpg" alt="菅尾征司の写真"></figure>
             <p class="txt">興味から始まった挑戦が<br>毎日を面白くしてくれる</p>
             <p class="name fontEn">Masashi Sugao</p>
           </a>
           <a href="/recruit/people/hirose" class="link js-scroll js-clip">
-            <figure class="img"><img src="/../../common/img/recruit/people/hirose/other.jpg" alt="廣瀬暁彦の写真"></figure>
+            <figure class="img"><img src="/common/img/recruit/people/hirose/other.jpg" alt="廣瀬暁彦の写真"></figure>
             <p class="txt">学び続けるエンジニアが<br>チームを導く未来をつくる</p>
             <p class="name fontEn">Akihiko Hirose</p>
           </a>
